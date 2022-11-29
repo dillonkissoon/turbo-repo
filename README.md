@@ -1,4 +1,4 @@
-# Turborepo (NestJS + Prisma + NextJS + Tailwind + Typescript + Jest) Starter
+# Turborepo (NestJS + Prisma + Vite + Typescript + Jest) Starter
 
 This is fullstack turborepo starter. It comes with the following features. 
 
@@ -6,9 +6,7 @@ This is fullstack turborepo starter. It comes with the following features.
 - ✅ Nestjs 
     - ✅ Env Config with Validation  
     - ✅ Prisma 
-- ✅ NextJS 
-    - ✅ Tailwind 
-    - ✅ Redux Toolkit Query 
+- ✅ Vite React App 
 - ✅ Testing using Jest 
 - ✅ Github Actions 
 - ✅ Reverse Proxy using Nginx 
@@ -23,9 +21,9 @@ This turborepo uses [Yarn](https://classic.yarnpkg.com/lang/en/) as a package ma
 ### Apps and Packages
 
 - `api`: a [NestJS](https://nestjs.com/) app
-- `web`: a [Next.js](https://nextjs.org) app
+- `web`: a [Vite React app](https://vitejs.dev/) app
 - `ui`: a stub React component library used by `web`.
-- `config`: `eslint`, `nginx` and `tailwind` (includes `eslint-config-next` and `eslint-config-prettier`)
+- `config`: `eslint`, and `nginx` (`eslint-config-prettier`)
 - `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).

@@ -22,12 +22,16 @@
     "test:ci": "jest --ci --runInBand"
   },
   "dependencies": {
+    "@nestjs/apollo": "^10.1.6",
     "@nestjs/common": "^8.4.0",
     "@nestjs/config": "^1.2.0",
     "@nestjs/core": "^8.4.0",
+    "@nestjs/graphql": "^10.1.6",
     "@nestjs/platform-express": "^8.4.0",
     "@nestjs/swagger": "^5.2.0",
     "@prisma/client": "^3.10.0",
+    "apollo-server-express": "^3.11.1",
+    "graphql": "^16.6.0",
     "joi": "^17.6.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",

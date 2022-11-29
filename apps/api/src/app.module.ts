@@ -4,6 +4,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { validationSchemaForEnv } from './config/environment-variables';
 import { PersistenceModule } from './persistence/persistence.module';
+import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [
@@ -12,8 +13,9 @@ import { PersistenceModule } from './persistence/persistence.module';
       validationSchema: validationSchemaForEnv,
     }),
     PersistenceModule,
+    UsersModule,
   ],
   controllers: [AppController],
   providers: [AppService],
 })
-export class AppModule {}
+export class AppModule { }
